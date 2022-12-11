@@ -1,0 +1,159 @@
+﻿<UserControl x:Class="ClienteMesa.Views.MenuCategoriaView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:ClienteMesa.ViewModel"
+             xmlns:local="clr-namespace:ClienteMesa.Views"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             mc:Ignorable="d" 
+             d:DesignHeight="586" d:DesignWidth="1336">
+
+    <UserControl.DataContext>
+        <viewModel:MenuCategoriaViewModel/>
+    </UserControl.DataContext>
+     
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <!-- Mapping View - ViewModel -->
+            <DataTemplate DataType="{x:Type viewModel:MenuDiaViewModel}">
+                <local:MenuDiaView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:CarritoViewModel}">
+                <local:CarritoView/>
+            </DataTemplate>
+            <!--  This is the template for all menu items. -->
+            <DataTemplate x:Key="HamburgerMenuItem" DataType="{x:Type mah:HamburgerMenuGlyphItem}">
+                <Grid Height="48">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <ContentControl Grid.Column="0"
+                                Content="{Binding Tag}"
+                                Focusable="False"
+                                IsTabStop="False"/>
+                    <TextBlock Grid.Column="1"
+                            VerticalAlignment="Center"
+                            FontSize="17"
+                            FontFamily="Global User Interface" 
+                            Text="{Binding Label}"/>
+                </Grid>
+            </DataTemplate>
+            <!--  This is the template for options. -->
+            <DataTemplate x:Key="HamburgerOptionsMenuItem" DataType="{x:Type mah:HamburgerMenuItem}">
+                <Grid Height="48">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="{Binding RelativeSource={RelativeSource AncestorType={x:Type mah:HamburgerMenu}}, Path=CompactPaneLength}" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <ContentControl Grid.Column="0"
+                                Content="{Binding Tag}"
+                                Focusable="False"
+                                IsTabStop="False"/>
+                    <TextBlock Grid.Column="1"
+                            VerticalAlignment="Center"
+                            FontSize="17"
+                            FontFamily="Global User Interface" 
+                            Text="{Binding Label}"/>
+                </Grid>
+            </DataTemplate>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="240"/>
+            <ColumnDefinition Width="1155"/>
+        </Grid.ColumnDefinitions>
+        <mah:HamburgerMenu 
+                x:Name="HamburgerMenuControl"
+                HamburgerVisibility="Collapsed"
+                HamburgerWidth="48"
+                IsPaneOpen="True"
+                ItemTemplate="{StaticResource HamburgerMenuItem}"
+                OptionsItemTemplate="{StaticResource HamburgerOptionsMenuItem}"
+                SelectedIndex="1"
+                Style="{StaticResource MahApps.Styles.HamburgerMenu.CreatorsUpdate}"
+                VerticalScrollBarOnLeftSide="False">
+            <!--  Items  -->
+            <mah:HamburgerMenu.ItemsSource>
+                <mah:HamburgerMenuItemCollection>
+                    <!--  Item 1 -->
+                    <mah:HamburgerMenuHeaderItem  Label="Menú" />
+                    <mah:HamburgerMenuSeparatorItem />
+                    <!--  Item 2 -->
+                    <mah:HamburgerMenuGlyphItem  Label="Menú del día" Command="{Binding MostrarMenuDelDiaCommand}">
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <iconPacks:PackIconFontAwesome Width="25"
+                                                            Height="25"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Kind="DotCircleRegular" />
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                    <!--  Item 3 -->
+                    <mah:HamburgerMenuGlyphItem  Label="Menú a la carta" Command="{Binding Mostrar Command}">
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <iconPacks:PackIconFontAwesome  Width="25"
+                                                            Height="25"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Kind="DotCircleRegular" />
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                    <!--  Item 4 -->
+                    <mah:HamburgerMenuGlyphItem  Label="Ensalada" Command="{Binding Mostrar Command}">
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <iconPacks:PackIconFontAwesome  Width="25"
+                                                            Height="25"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Kind="DotCircleRegular" />
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                    <!--  Item 5 -->
+                    <mah:HamburgerMenuGlyphItem  Label="Bebestibles" Command="{Binding Mostrar Command}">
+                        <mah:HamburgerMenuGlyphItem.Tag>
+                            <iconPacks:PackIconFontAwesome  Width="25"
+                                                            Height="25"
+                                                            HorizontalAlignment="Center"
+                                                            VerticalAlignment="Center"
+                                                            Kind="DotCircleRegular" />
+                        </mah:HamburgerMenuGlyphItem.Tag>
+                    </mah:HamburgerMenuGlyphItem>
+                                   
+                    
+                </mah:HamburgerMenuItemCollection>
+            </mah:HamburgerMenu.ItemsSource>
+
+            <mah:HamburgerMenu.OptionsItemsSource>
+                <mah:HamburgerMenuItemCollection>
+
+                    <mah:HamburgerMenuIconItem  Command="{Binding MostrarCarritoCommand}"
+                                                   Label="Carrito">
+                        
+                        <mah:HamburgerMenuIconItem.Tag>
+                            <iconPacks:PackIconFontAwesome  
+                                        Width="25"
+                                        Height="25"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        Kind="ShoppingCartSolid"/>
+                        </mah:HamburgerMenuIconItem.Tag>
+                           
+                        
+                        
+                    </mah:HamburgerMenuIconItem>
+                </mah:HamburgerMenuItemCollection>
+            </mah:HamburgerMenu.OptionsItemsSource>
+        </mah:HamburgerMenu>
+        <ContentControl Grid.Column="1" 
+                        Content="{Binding CurrentViewModel}"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Center"/>
+    </Grid>
+</UserControl>

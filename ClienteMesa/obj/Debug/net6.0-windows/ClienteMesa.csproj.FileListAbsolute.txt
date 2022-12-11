@@ -1,0 +1,7 @@
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\ClienteMesa.csproj.AssemblyReference.cache
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\Views\MenuCategoriasView.g.cs
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\ClienteMesa_MarkupCompile.cache
+C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net6.0-windows\ClienteMesa_MarkupCompile.lref

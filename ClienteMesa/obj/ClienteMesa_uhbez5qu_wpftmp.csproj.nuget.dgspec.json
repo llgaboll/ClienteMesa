@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
+        "projectName": "ClienteMesa",
+        "projectPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
+        "packagesPath": "C:\\Users\\Gabo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Gabo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Oracle.ManagedDataAccess": {
+              "target": "Package",
+              "version": "[21.7.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

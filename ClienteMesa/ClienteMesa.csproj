@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+	<LangVersion>preview</LangVersion>
+    <UseWPF>true</UseWPF>
+    <StartupObject>ClienteMesa.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="21.7.0" />
+  </ItemGroup>
+
+</Project>

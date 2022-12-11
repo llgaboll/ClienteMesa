@@ -1,0 +1,159 @@
+﻿<UserControl x:Class="ClienteMesa.Views.MenuDiaView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ClienteMesa.Views"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:viewModel="clr-namespace:ClienteMesa.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="586" d:DesignWidth="1100">
+
+    <UserControl.DataContext>
+        <viewModel:MenuDiaViewModel/>
+    </UserControl.DataContext>
+
+    <Grid
+        Height="586"
+        Width="1100">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="550"></ColumnDefinition>
+            <ColumnDefinition Width="550"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Grid
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin="0,50"
+            Height="90"
+            Width="490"
+            Background="Bisque">
+
+            <Label Content="{Binding nombreMenu}"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Width="300"
+                   FontSize="30"
+                   Margin="25,0,0,0"/>
+            <Label Content="{Binding valor}"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   FontSize="20"
+                   Margin="25,45,0,0"/>
+            <Button FontWeight="Bold"
+                   FontFamily="Global User Interface"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Background="#46C76A"
+                    Foreground="White"
+                   Height="50"
+                   Width="100"
+                   FontSize="15"
+                   Margin="0,0,25,0">
+
+                <iconPacks:PackIconFontAwesome  
+                    Width="25"
+                    Height="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Kind="CartPlusSolid"/>
+
+            </Button>
+        </Grid>
+
+        <Grid
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin="0,150"
+            Height="90"
+            Width="490"
+            Background="Bisque">
+
+            <Label Content="Nombre de menú"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Width="300"
+                   FontSize="30"
+                   Margin="25,0,0,0"/>
+            <Label Content="Valor"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   FontSize="20"
+                   Margin="25,45,0,0"/>
+            <Button
+                   FontWeight="Bold"
+                   FontFamily="Global User Interface"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Background="#46C76A"
+                    Foreground="White"
+                   Height="50"
+                   Width="100"
+                   FontSize="15"
+                   Margin="0,0,25,0">
+
+                <iconPacks:PackIconFontAwesome  
+                    Width="25"
+                    Height="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Kind="CartPlusSolid"/>
+
+            </Button>
+        </Grid>
+
+        <Grid
+            VerticalAlignment="Top"
+            HorizontalAlignment="Center"
+            Margin="0,250"
+            Height="90"
+            Width="490"
+            Background="Bisque">
+
+            <Label Content="Nombre de menú"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   Width="300"
+                   FontSize="30"
+                   Margin="25,0,0,0"/>
+            <Label Content="Valor"
+                   FontFamily="Global User Interface"
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Left"
+                   FontSize="20"
+                   Margin="25,45,0,0"/>
+            <Button
+                   FontWeight="Bold"
+                   FontFamily="Global User Interface"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Background="#46C76A"
+                    Foreground="White"
+                   Height="50"
+                   Width="100"
+                   FontSize="15"
+                   Margin="0,0,25,0">
+
+                <iconPacks:PackIconFontAwesome  
+                    Width="25"
+                    Height="25"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Kind="CartPlusSolid"/>
+
+            </Button>
+        </Grid>
+
+        
+
+
+    </Grid>
+</UserControl>

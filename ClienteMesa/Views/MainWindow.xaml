@@ -1,0 +1,133 @@
+﻿<mah:MetroWindow 
+        x:Class="ClienteMesa.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:local="clr-namespace:ClienteMesa.Views"
+        xmlns:viewModel="clr-namespace:ClienteMesa.ViewModel"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        UseNoneWindowStyle="True"
+        ResizeMode="NoResize"
+        Height="768" Width="1366">
+
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:MenuCategoriaViewModel}">
+            <local:MenuCategoriaView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:MesaNumeroViewModel}">
+            <local:MesaNumeroView/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid
+            MouseDown="MoveWindow"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Top"
+            Width="1366"
+            Height="120"
+            Background="#FF4F80FF">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"></ColumnDefinition>
+                <ColumnDefinition Width="1100"></ColumnDefinition>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label
+                Grid.Column="1"
+                Grid.Row="1"
+                Content="RESTORANT SIGLO XXI"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="Global User Interface"
+                Foreground="White"
+                FontWeight="Bold"
+                FontSize="40"
+                Padding="40,5"/>
+
+            <StackPanel Grid.Column="3"
+                        Orientation="Horizontal"
+                        FlowDirection="RightToLeft">
+                <Button
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Cursor="Hand"
+                    Style="{DynamicResource MahApps.Styles.Button.WindowCommands}"
+                    Click="CloseApp">
+                    <iconPacks:PackIconIonicons
+                        Kind="CloseMD"
+                        Foreground="White"
+                        Height="18"
+                        Width="18"
+                        Opacity="0.9"/>
+                </Button>
+                <Button
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Cursor="Hand"
+                    Style="{DynamicResource MahApps.Styles.Button.WindowCommands}"
+                    Click="Minimize">
+                    <iconPacks:PackIconIonicons
+                        Kind="RemoveMD"
+                        Height="18"
+                        Foreground="White"
+                        Width="18"
+                        Opacity="0.9"/>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+        <Grid
+            Height="648"
+            VerticalAlignment="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="3"/>
+                <RowDefinition/>
+                <RowDefinition Height="3"/>
+            </Grid.RowDefinitions>
+            <Grid
+                Grid.Row="0"
+                Background="#D9D9D9"/>
+            <Grid
+                Grid.Row="1"
+                Background="#FF4F80FF">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500"/>
+                    <ColumnDefinition Width="600"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Grid
+                Grid.Row="2"
+                Background="#D9D9D9"/>
+            <Grid
+                Grid.Row="3"
+                Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="435*"/>
+                    <ColumnDefinition Width="248*"/>
+                </Grid.ColumnDefinitions>
+                <UserControl 
+                    Content="{Binding CurrentViewModel}" Grid.ColumnSpan="2"/>
+            </Grid>
+            <Grid
+                Grid.Row="4"
+                Background="#D9D9D9"/>
+        </Grid>
+    </Grid>
+</mah:MetroWindow>

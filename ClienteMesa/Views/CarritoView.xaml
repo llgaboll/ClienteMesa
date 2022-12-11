@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="ClienteMesa.Views.CarritoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:ClienteMesa.ViewModel"
+             xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:ClienteMesa.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="586" d:DesignWidth="1100">
+
+
+    <UserControl.DataContext>
+        <viewModel:CarritoViewModel/>
+    </UserControl.DataContext>
+
+    <Grid
+        Height="586"
+        Width="1100">
+        <Label Content="JAJAJA"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               FontSize="30"/>
+
+
+        <DataGrid 
+            x:Name="AzureDataGrid"
+            AutoGenerateColumns="False"
+            RowHeaderWidth="0"
+            Background="White" 
+            ItemsSource="{Binding XXX, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+            SelectedItem="{Binding XXX}"
+            Height="370" 
+            Width="700" 
+            HorizontalAlignment="Center"     
+            VerticalAlignment="Top" 
+            Margin="0,28"
+            FontSize="16"
+            CanUserAddRows="False"
+            CanUserDeleteRows="False"
+            Focusable="True"
+            HorizontalScrollBarVisibility="Disabled"
+            CanUserResizeColumns="False"
+            CanUserReorderColumns="False"
+            GridLinesVisibility="Vertical"
+            CanUserSortColumns="False"
+            Style="{DynamicResource MahApps.Styles.DataGrid.Azure}">
+            <DataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="True" Width="138" Binding="{Binding codigo}" Header="Menu" />
+                <DataGridTextColumn IsReadOnly="True" Width="138" Binding="{Binding codigo}" Header="cantidad" />
+                <mah:DataGridNumericUpDownColumn IsReadOnly="True" FontSize="16" TextAlignment="Center" Width="138" Minimum="0" Binding="{Binding agregarStock, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="valor"/>
+                <DataGridTemplateColumn Width="100" Header="Quitar">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button 
+                                Command="{Binding DataContext.EliminarInsumoListCommand, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+                                Height="auto"
+                                Background="Transparent"
+                                Cursor="Hand"
+                                Style="{StaticResource MahApps.Styles.Button.Flat}">
+                                <iconPacks:PackIconModern Width="20"
+                                              Height="20"
+                                              Kind="TilesPlus"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Width="100" Header="Ordenar">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button 
+                                Command="{Binding DataContext.EliminarInsumoListCommand, RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+                                Height="auto"
+                                Background="Transparent"
+                                Cursor="Hand"
+                                Style="{StaticResource MahApps.Styles.Button.Flat}">
+                                <iconPacks:PackIconModern Width="20"
+                                              Height="20"
+                                              Kind="TilesPlus"/>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Ordenar"
+                   FontWeight="Bold"
+                   FontFamily="Global User Interface"
+                   HorizontalContentAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Center"
+                   Background="#46C76A"
+                   Foreground="White"
+                   Height="50"
+                   Width="200"
+                   FontSize="15"
+                   Margin="500,0,0,100"/>
+
+    </Grid>
+</UserControl>
