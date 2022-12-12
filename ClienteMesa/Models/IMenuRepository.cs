@@ -8,6 +8,6 @@ namespace ClienteMesa.Models
 {
     internal interface IMenuRepository
     {
-        public List<MenuModel> ObtenerMenu();
+        public List<MenuModel> ObtenerByCategoriaMenu(int idCategoria);
     }
 }

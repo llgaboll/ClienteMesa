@@ -19,15 +19,14 @@ namespace ClienteMesa.ViewModel
         //Fields
         ViewModelBase currentViewModel;
         //Properties
-        public ViewModelBase CurrentViewModel { get { return currentViewModel; } set { currentViewModel = value; onPropertyChanged(nameof(currentViewModel)); } }
+        public ViewModelBase CurrentViewModel { get { return currentViewModel; } set { currentViewModel = value; onPropertyChanged(nameof(CurrentViewModel)); } }
 
         //Commands
-        public ICommand MostrarCategoriaMenuCommand { get;}
+
         // Constructor
         public MainViewModel()
         {
-            //CurrentViewModel = new MenuCategoriaViewModel();
-            CurrentViewModel = new MesaNumeroViewModel();
+            CurrentViewModel = new MenuCategoriaViewModel();
         }
         // Methods
 

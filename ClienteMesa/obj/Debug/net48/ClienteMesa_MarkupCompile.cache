@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Gabo\Desktop\forms\ClienteMesa\obj\Debug\net48\
+C:\Users\Diego\OneDrive\Escritorio\Repositorios\ClienteMesa\ClienteMesa\obj\Debug\net48\
 ClienteMesa
 none
 false
 TRACE;DEBUG;NETFRAMEWORK;NET48;
-C:\Users\Gabo\Desktop\forms\ClienteMesa\App.xaml
-51541373306
+C:\Users\Diego\OneDrive\Escritorio\Repositorios\ClienteMesa\ClienteMesa\App.xaml
+72143438366
 
-191410826096
-69-1474031776
-Views\CarritoView.xaml;Views\MainWindow.xaml;Views\MenuCategoriaView.xaml;Views\MenuDiaView.xaml;Views\MesaNumeroView.xaml;
+23406664318
+92-1078121976
+Views\CarritoView.xaml;Views\MainWindow.xaml;Views\MenuBebestibleViewModel.xaml;Views\MenuCartaView.xaml;Views\MenuCategoriaView.xaml;Views\MenuDiaView.xaml;Views\MenuEnsaladaView.xaml;
 
 False
 

@@ -302,6 +302,415 @@
           "lib/net462/Oracle.ManagedDataAccess.dll": {}
         }
       },
+      "Syncfusion.Chart.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Compression.Base/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.ExportOlapChart.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.DocIO.Wpf": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60",
+          "Syncfusion.OlapChart.WPF": "20.3.0.60",
+          "Syncfusion.Pdf.Wpf": "20.3.0.60",
+          "Syncfusion.Shared.Wpf": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapChartConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapChartConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.ExportOlapGrid.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.DocIO.Wpf": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.Pdf.Wpf": "20.3.0.60",
+          "Syncfusion.XlsIO.Wpf": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapGridConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGridConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Grid.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Base/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Olap.Base/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Linq.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Olap.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Olap.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapChart.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapChart.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapChart.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapClient.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.ExportOlapChart.Wpf": "20.3.0.60",
+          "Syncfusion.ExportOlapGrid.Wpf": "20.3.0.60",
+          "Syncfusion.Grid.WPF": "20.3.0.60",
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapChart.WPF": "20.3.0.60",
+          "Syncfusion.OlapGrid.WPF": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.OlapTools.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF.Classic": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapClient.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapClient.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapGrid.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Grid.WPF": "20.3.0.60",
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapGrid.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGrid.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapGridCommon.WPF/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.OlapGridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapShared.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapShared.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapShared.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapTools.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF.Classic": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapTools.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapTools.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Tools.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Tools.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Tools.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Tools.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "frameworkAssemblies": [
@@ -750,6 +1159,415 @@
         },
         "runtime": {
           "lib/net462/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "Syncfusion.Chart.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Compression.Base/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.DocIO.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.ExportOlapChart.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.DocIO.Wpf": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60",
+          "Syncfusion.OlapChart.WPF": "20.3.0.60",
+          "Syncfusion.Pdf.Wpf": "20.3.0.60",
+          "Syncfusion.Shared.Wpf": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapChartConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapChartConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.ExportOlapGrid.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.DocIO.Wpf": "20.3.0.60",
+          "Syncfusion.OfficeChart.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.Pdf.Wpf": "20.3.0.60",
+          "Syncfusion.XlsIO.Wpf": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapGridConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGridConverter.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Grid.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OfficeChart.Base/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Olap.Base/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Linq.Base": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Olap.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Olap.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapChart.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapChart.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapChart.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapClient.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Chart.WPF.Classic": "20.3.0.60",
+          "Syncfusion.ExportOlapChart.Wpf": "20.3.0.60",
+          "Syncfusion.ExportOlapGrid.Wpf": "20.3.0.60",
+          "Syncfusion.Grid.WPF": "20.3.0.60",
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapChart.WPF": "20.3.0.60",
+          "Syncfusion.OlapGrid.WPF": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.OlapTools.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF.Classic": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapClient.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapClient.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapGrid.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Grid.WPF": "20.3.0.60",
+          "Syncfusion.GridCommon.Wpf": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Linq.Base": "20.3.0.60",
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.OlapGridCommon.WPF": "20.3.0.60",
+          "Syncfusion.OlapShared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapGrid.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGrid.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapGridCommon.WPF/20.3.0.60": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.OlapGridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapGridCommon.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapShared.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapShared.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapShared.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.OlapTools.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Olap.Base": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60",
+          "Syncfusion.Tools.WPF.Classic": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OlapTools.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OlapTools.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "20.3.0.60",
+          "Syncfusion.Shared.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Tools.WPF.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Tools.WPF.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Tools.WPF.Classic/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "20.3.0.60",
+          "Syncfusion.Shared.WPF.Classic": "20.3.0.60",
+          "Syncfusion.Tools.WPF": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Tools.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Tools.WPF.Classic.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/20.3.0.60": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "20.3.0.60",
+          "Syncfusion.Licensing": "20.3.0.60"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -1862,6 +2680,773 @@
         "readme.txt"
       ]
     },
+    "Syncfusion.Chart.WPF.Classic/20.3.0.60": {
+      "sha512": "2frYURL3z6n+RSllAxpA4OIMgPxWbfHeyXngBLk7wpw2t66g+iAyPiTJq5VguAN/0ji8pkHeD3Kd/pNq92/Y0Q==",
+      "type": "package",
+      "path": "syncfusion.chart.wpf.classic/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Design/Syncfusion.Chart.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Syncfusion.Chart.WPF.dll",
+        "lib/net35/Syncfusion.Chart.WPF.xml",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Syncfusion.Chart.WPF.dll",
+        "lib/net40/Syncfusion.Chart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Syncfusion.Chart.WPF.dll",
+        "lib/net45/Syncfusion.Chart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Syncfusion.Chart.WPF.dll",
+        "lib/net451/Syncfusion.Chart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Syncfusion.Chart.WPF.dll",
+        "lib/net46/Syncfusion.Chart.WPF.xml",
+        "syncfusion.chart.wpf.classic.20.3.0.60.nupkg.sha512",
+        "syncfusion.chart.wpf.classic.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Compression.Base/20.3.0.60": {
+      "sha512": "eHEoGjHZOc6n7k1Tlt9p7Y2V4pvUFE8ZkxQ3B5X1gtOMQG8ajtlKPFEl1/D3Oy4khC0Hij/4NPas0Or8sx81ww==",
+      "type": "package",
+      "path": "syncfusion.compression.base/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/net5.0/Syncfusion.Compression.Base.dll",
+        "lib/net5.0/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll",
+        "syncfusion.compression.base.20.3.0.60.nupkg.sha512",
+        "syncfusion.compression.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.DocIO.Wpf/20.3.0.60": {
+      "sha512": "1m7JEkY9v8DHyugI445Sm+mNE6a62PDuPsHK0pcrsZyb0gZHCiZJwuVc3uG27pVKAZ5jRUCiK57k9jCnWs6dQw==",
+      "type": "package",
+      "path": "syncfusion.docio.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.DocIO.Base.dll",
+        "lib/net35/Syncfusion.DocIO.Base.xml",
+        "lib/net40/Syncfusion.DocIO.Base.dll",
+        "lib/net40/Syncfusion.DocIO.Base.xml",
+        "lib/net45/Syncfusion.DocIO.Base.dll",
+        "lib/net45/Syncfusion.DocIO.Base.xml",
+        "lib/net451/Syncfusion.DocIO.Base.dll",
+        "lib/net451/Syncfusion.DocIO.Base.xml",
+        "lib/net46/Syncfusion.DocIO.Base.dll",
+        "lib/net46/Syncfusion.DocIO.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.DocIO.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.DocIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.xml",
+        "syncfusion.docio.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.docio.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.ExportOlapChart.Wpf/20.3.0.60": {
+      "sha512": "Gsl5tJWPUpMc+uRvLYGBAJ2Rk/FZvL/awgIfP06hxqfdtUpXQhuRTvyKc0miVoE1mR/GeJbtbIAXOqVlzwxATg==",
+      "type": "package",
+      "path": "syncfusion.exportolapchart.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.OlapChartConverter.WPF.dll",
+        "lib/net35/Syncfusion.OlapChartConverter.WPF.xml",
+        "lib/net40/Syncfusion.OlapChartConverter.WPF.dll",
+        "lib/net40/Syncfusion.OlapChartConverter.WPF.xml",
+        "lib/net45/Syncfusion.OlapChartConverter.WPF.dll",
+        "lib/net45/Syncfusion.OlapChartConverter.WPF.xml",
+        "lib/net451/Syncfusion.OlapChartConverter.WPF.dll",
+        "lib/net451/Syncfusion.OlapChartConverter.WPF.xml",
+        "lib/net46/Syncfusion.OlapChartConverter.WPF.dll",
+        "lib/net46/Syncfusion.OlapChartConverter.WPF.xml",
+        "syncfusion.exportolapchart.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.exportolapchart.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.ExportOlapGrid.Wpf/20.3.0.60": {
+      "sha512": "lWQwo58rcr03tC2In/JOX3v3M77AbXU+I/rxk3IqBL+JhGevJXSjGHaOQ9MGyNWSTbATw97lJeGqIv2gW0phdg==",
+      "type": "package",
+      "path": "syncfusion.exportolapgrid.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.OlapGridConverter.WPF.dll",
+        "lib/net35/Syncfusion.OlapGridConverter.WPF.xml",
+        "lib/net40/Syncfusion.OlapGridConverter.WPF.dll",
+        "lib/net40/Syncfusion.OlapGridConverter.WPF.xml",
+        "lib/net45/Syncfusion.OlapGridConverter.WPF.dll",
+        "lib/net45/Syncfusion.OlapGridConverter.WPF.xml",
+        "lib/net451/Syncfusion.OlapGridConverter.WPF.dll",
+        "lib/net451/Syncfusion.OlapGridConverter.WPF.xml",
+        "lib/net46/Syncfusion.OlapGridConverter.WPF.dll",
+        "lib/net46/Syncfusion.OlapGridConverter.WPF.xml",
+        "syncfusion.exportolapgrid.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.exportolapgrid.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Grid.WPF/20.3.0.60": {
+      "sha512": "SsA94IlkuPioFR+c/1wXd4RyHR5x4TV8pviRaiQ14hNCNxbnLYW6atufQ15HqpryIunK/D3fWG+5ux9QCqBrBg==",
+      "type": "package",
+      "path": "syncfusion.grid.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Grid.WPF.dll",
+        "lib/net35/Syncfusion.Grid.WPF.xml",
+        "lib/net40/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Grid.WPF.dll",
+        "lib/net40/Syncfusion.Grid.WPF.xml",
+        "lib/net45/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Grid.WPF.dll",
+        "lib/net45/Syncfusion.Grid.WPF.xml",
+        "lib/net451/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Grid.WPF.dll",
+        "lib/net451/Syncfusion.Grid.WPF.xml",
+        "lib/net46/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Grid.WPF.dll",
+        "lib/net46/Syncfusion.Grid.WPF.xml",
+        "lib/net5.0-windows7.0/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Grid.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Grid.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.xml",
+        "syncfusion.grid.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.grid.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.GridCommon.Wpf/20.3.0.60": {
+      "sha512": "qQqtPWcaR7Nw+MkW1uiMxBrUcVS3sa2p568p0I/p1dAV3Sf8/IOB2cXQ6AHrkM2up1kAk97TXOYwDilAy3msIA==",
+      "type": "package",
+      "path": "syncfusion.gridcommon.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.GridCommon.WPF.dll",
+        "lib/net35/Syncfusion.GridCommon.WPF.xml",
+        "lib/net40/Syncfusion.GridCommon.WPF.dll",
+        "lib/net40/Syncfusion.GridCommon.WPF.xml",
+        "lib/net45/Syncfusion.GridCommon.WPF.dll",
+        "lib/net45/Syncfusion.GridCommon.WPF.xml",
+        "lib/net451/Syncfusion.GridCommon.WPF.dll",
+        "lib/net451/Syncfusion.GridCommon.WPF.xml",
+        "lib/net46/Syncfusion.GridCommon.WPF.dll",
+        "lib/net46/Syncfusion.GridCommon.WPF.xml",
+        "lib/net5.0-windows7.0/Syncfusion.GridCommon.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.GridCommon.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.xml",
+        "syncfusion.gridcommon.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.gridcommon.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Licensing/20.3.0.60": {
+      "sha512": "CqgwRK4uKKx/2i9FRzM/N+sym1PqFBeWJglcXsREEQliLaesjsb/++ebSn81MVuoKWusTFNv5TlrqThnXXeUxA==",
+      "type": "package",
+      "path": "syncfusion.licensing/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.20.3.0.60.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Linq.Base/20.3.0.60": {
+      "sha512": "Am5UwWZFxFSapbtJWwDpFC5Lf2mwR2Y/+Me9+zjL0J+W5sDpPBa4esv5BUb4TK1yHkgfgDDYoc89OWCJs3jVHA==",
+      "type": "package",
+      "path": "syncfusion.linq.base/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.Linq.Base.dll",
+        "lib/net35/Syncfusion.Linq.Base.xml",
+        "lib/net40/Syncfusion.Linq.Base.dll",
+        "lib/net40/Syncfusion.Linq.Base.xml",
+        "lib/net45/Syncfusion.Linq.Base.dll",
+        "lib/net45/Syncfusion.Linq.Base.xml",
+        "lib/net451/Syncfusion.Linq.Base.dll",
+        "lib/net451/Syncfusion.Linq.Base.xml",
+        "lib/net46/Syncfusion.Linq.Base.dll",
+        "lib/net46/Syncfusion.Linq.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Linq.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Linq.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.xml",
+        "syncfusion.linq.base.20.3.0.60.nupkg.sha512",
+        "syncfusion.linq.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.OfficeChart.Base/20.3.0.60": {
+      "sha512": "cPyoHsX9uP2Q+QR4ApmBYmTcZeqv0cGwTVYb4PeWshcp4GOMVe36aZsm2iMuJJ3hiZoFLfrrmT/DKUoZf6Zq/w==",
+      "type": "package",
+      "path": "syncfusion.officechart.base/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net20/Syncfusion.OfficeChart.Base.dll",
+        "lib/net20/Syncfusion.OfficeChart.Base.xml",
+        "lib/net35/Syncfusion.OfficeChart.Base.dll",
+        "lib/net35/Syncfusion.OfficeChart.Base.xml",
+        "lib/net40/Syncfusion.OfficeChart.Base.dll",
+        "lib/net40/Syncfusion.OfficeChart.Base.xml",
+        "lib/net45/Syncfusion.OfficeChart.Base.dll",
+        "lib/net45/Syncfusion.OfficeChart.Base.xml",
+        "lib/net451/Syncfusion.OfficeChart.Base.dll",
+        "lib/net451/Syncfusion.OfficeChart.Base.xml",
+        "lib/net46/Syncfusion.OfficeChart.Base.dll",
+        "lib/net46/Syncfusion.OfficeChart.Base.xml",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.dll",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll",
+        "syncfusion.officechart.base.20.3.0.60.nupkg.sha512",
+        "syncfusion.officechart.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Olap.Base/20.3.0.60": {
+      "sha512": "gXgVKdaCntC9UuhpDCRboKVXSbaXS5ZBDbi2V3FCNnI8VY/n3VsXzWamdqCdYhuG04otaTzK6nIKiZbX+1VQXA==",
+      "type": "package",
+      "path": "syncfusion.olap.base/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.Olap.Base.dll",
+        "lib/net35/Syncfusion.Olap.Base.xml",
+        "lib/net40/Syncfusion.Olap.Base.dll",
+        "lib/net40/Syncfusion.Olap.Base.xml",
+        "lib/net45/Syncfusion.Olap.Base.dll",
+        "lib/net45/Syncfusion.Olap.Base.xml",
+        "lib/net451/Syncfusion.Olap.Base.dll",
+        "lib/net451/Syncfusion.Olap.Base.xml",
+        "lib/net46/Syncfusion.Olap.Base.dll",
+        "lib/net46/Syncfusion.Olap.Base.xml",
+        "syncfusion.olap.base.20.3.0.60.nupkg.sha512",
+        "syncfusion.olap.base.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.OlapChart.WPF/20.3.0.60": {
+      "sha512": "dVgKKKQ2/Glbi6i2ywEN/llZy06ua8YEgU5D4xcfLvlA8h8lFZIYiSAqPP/r29uVf7ghRdQn6Yk/Zhjd6YkxBw==",
+      "type": "package",
+      "path": "syncfusion.olapchart.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.OlapChart.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.OlapChart.WPF.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapChart.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapChart.WPF.dll.Design.dll",
+        "lib/net35/Syncfusion.OlapChart.WPF.dll",
+        "lib/net35/Syncfusion.OlapChart.WPF.xml",
+        "lib/net40/Design/Syncfusion.OlapChart.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.OlapChart.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapChart.WPF.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapChart.WPF.dll.Design.dll",
+        "lib/net40/Syncfusion.OlapChart.WPF.dll",
+        "lib/net40/Syncfusion.OlapChart.WPF.xml",
+        "lib/net45/Design/Syncfusion.OlapChart.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.OlapChart.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapChart.WPF.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapChart.WPF.dll.Design.dll",
+        "lib/net45/Syncfusion.OlapChart.WPF.dll",
+        "lib/net45/Syncfusion.OlapChart.WPF.xml",
+        "lib/net451/Design/Syncfusion.OlapChart.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.OlapChart.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapChart.WPF.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapChart.WPF.dll.Design.dll",
+        "lib/net451/Syncfusion.OlapChart.WPF.dll",
+        "lib/net451/Syncfusion.OlapChart.WPF.xml",
+        "lib/net46/Design/Syncfusion.OlapChart.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.OlapChart.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapChart.WPF.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapChart.WPF.dll.Design.dll",
+        "lib/net46/Syncfusion.OlapChart.WPF.dll",
+        "lib/net46/Syncfusion.OlapChart.WPF.xml",
+        "syncfusion.olapchart.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olapchart.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.OlapClient.WPF/20.3.0.60": {
+      "sha512": "nsYo8+veleeQtebDGQGNyLYrVgIbqkrW58wnhsow63P5HRXOUH/xzURMshtHeJsEZYDmZEofyTQTERSmLmI88w==",
+      "type": "package",
+      "path": "syncfusion.olapclient.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.OlapClient.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.OlapClient.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapClient.WPF.dll.Design.dll",
+        "lib/net35/Syncfusion.OlapClient.WPF.dll",
+        "lib/net35/Syncfusion.OlapClient.WPF.xml",
+        "lib/net40/Design/Syncfusion.OlapClient.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.OlapClient.WPF.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapClient.WPF.dll.Design.dll",
+        "lib/net40/Syncfusion.OlapClient.WPF.dll",
+        "lib/net40/Syncfusion.OlapClient.WPF.xml",
+        "lib/net45/Design/Syncfusion.OlapClient.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.OlapClient.WPF.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapClient.WPF.dll.Design.dll",
+        "lib/net45/Syncfusion.OlapClient.WPF.dll",
+        "lib/net45/Syncfusion.OlapClient.WPF.xml",
+        "lib/net451/Design/Syncfusion.OlapClient.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.OlapClient.WPF.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapClient.WPF.dll.Design.dll",
+        "lib/net451/Syncfusion.OlapClient.WPF.dll",
+        "lib/net451/Syncfusion.OlapClient.WPF.xml",
+        "lib/net46/Design/Syncfusion.OlapClient.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.OlapClient.WPF.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapClient.WPF.dll.Design.dll",
+        "lib/net46/Syncfusion.OlapClient.WPF.dll",
+        "lib/net46/Syncfusion.OlapClient.WPF.xml",
+        "syncfusion.olapclient.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olapclient.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.OlapGrid.WPF/20.3.0.60": {
+      "sha512": "sa9jOd6p8idrqLJ8frK3P3x1jiZRaKnQqOIUJs7p+3Qr0zR/wA+KsoHvTFLobNU8o8IdmYHf4SJ3TWbpEhe01w==",
+      "type": "package",
+      "path": "syncfusion.olapgrid.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.OlapGrid.WPF.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapGrid.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapGrid.WPF.dll.Design.dll",
+        "lib/net35/Syncfusion.OlapGrid.WPF.dll",
+        "lib/net35/Syncfusion.OlapGrid.WPF.xml",
+        "lib/net40/Design/Syncfusion.OlapGrid.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapGrid.WPF.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapGrid.WPF.dll.Design.dll",
+        "lib/net40/Syncfusion.OlapGrid.WPF.dll",
+        "lib/net40/Syncfusion.OlapGrid.WPF.xml",
+        "lib/net45/Design/Syncfusion.OlapGrid.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapGrid.WPF.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapGrid.WPF.dll.Design.dll",
+        "lib/net45/Syncfusion.OlapGrid.WPF.dll",
+        "lib/net45/Syncfusion.OlapGrid.WPF.xml",
+        "lib/net451/Design/Syncfusion.OlapGrid.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapGrid.WPF.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapGrid.WPF.dll.Design.dll",
+        "lib/net451/Syncfusion.OlapGrid.WPF.dll",
+        "lib/net451/Syncfusion.OlapGrid.WPF.xml",
+        "lib/net46/Design/Syncfusion.OlapGrid.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapGrid.WPF.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapGrid.WPF.dll.Design.dll",
+        "lib/net46/Syncfusion.OlapGrid.WPF.dll",
+        "lib/net46/Syncfusion.OlapGrid.WPF.xml",
+        "syncfusion.olapgrid.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olapgrid.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.OlapGridCommon.WPF/20.3.0.60": {
+      "sha512": "b6cMOTm5gHPQFyBNtHaIoxFUclvnhUpAmJ66WjP2RWrAnMKRnzL6kQTmGAUt/0pjOfaDjD8ecV4H+YPCedz/jQ==",
+      "type": "package",
+      "path": "syncfusion.olapgridcommon.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.OlapGridCommon.WPF.dll",
+        "lib/net35/Syncfusion.OlapGridCommon.WPF.xml",
+        "lib/net40/Syncfusion.OlapGridCommon.WPF.dll",
+        "lib/net40/Syncfusion.OlapGridCommon.WPF.xml",
+        "lib/net45/Syncfusion.OlapGridCommon.WPF.dll",
+        "lib/net45/Syncfusion.OlapGridCommon.WPF.xml",
+        "lib/net451/Syncfusion.OlapGridCommon.WPF.dll",
+        "lib/net451/Syncfusion.OlapGridCommon.WPF.xml",
+        "lib/net46/Syncfusion.OlapGridCommon.WPF.dll",
+        "lib/net46/Syncfusion.OlapGridCommon.WPF.xml",
+        "syncfusion.olapgridcommon.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olapgridcommon.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.OlapShared.WPF/20.3.0.60": {
+      "sha512": "TIliSZ2EFthtN3MxquzUU1WufunNwKRDvLLdgaDfACJBPICszXW01Oq+6LC0x5E9FWMoVIvw7grsvgy//tstng==",
+      "type": "package",
+      "path": "syncfusion.olapshared.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.OlapShared.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.OlapShared.WPF.dll.Design.dll",
+        "lib/net35/Syncfusion.OlapShared.WPF.dll",
+        "lib/net35/Syncfusion.OlapShared.WPF.xml",
+        "lib/net40/Design/Syncfusion.OlapShared.WPF.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.OlapShared.WPF.dll.Design.dll",
+        "lib/net40/Syncfusion.OlapShared.WPF.dll",
+        "lib/net40/Syncfusion.OlapShared.WPF.xml",
+        "lib/net45/Design/Syncfusion.OlapShared.WPF.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.OlapShared.WPF.dll.Design.dll",
+        "lib/net45/Syncfusion.OlapShared.WPF.dll",
+        "lib/net45/Syncfusion.OlapShared.WPF.xml",
+        "lib/net451/Design/Syncfusion.OlapShared.WPF.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.OlapShared.WPF.dll.Design.dll",
+        "lib/net451/Syncfusion.OlapShared.WPF.dll",
+        "lib/net451/Syncfusion.OlapShared.WPF.xml",
+        "lib/net46/Design/Syncfusion.OlapShared.WPF.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.OlapShared.WPF.dll.Design.dll",
+        "lib/net46/Syncfusion.OlapShared.WPF.dll",
+        "lib/net46/Syncfusion.OlapShared.WPF.xml",
+        "syncfusion.olapshared.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olapshared.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.OlapTools.WPF/20.3.0.60": {
+      "sha512": "aVaXrgh9YzMPtN7vuWCE4orwNPeAA9qEhAN4TaC4ExXnMDQnJTM+rvNOuMZTECDG+fBLLaDA0iOoNJdXijvjuQ==",
+      "type": "package",
+      "path": "syncfusion.olaptools.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net35/Syncfusion.OlapTools.WPF.dll",
+        "lib/net35/Syncfusion.OlapTools.WPF.xml",
+        "lib/net40/Syncfusion.OlapTools.WPF.dll",
+        "lib/net40/Syncfusion.OlapTools.WPF.xml",
+        "lib/net45/Syncfusion.OlapTools.WPF.dll",
+        "lib/net45/Syncfusion.OlapTools.WPF.xml",
+        "lib/net451/Syncfusion.OlapTools.WPF.dll",
+        "lib/net451/Syncfusion.OlapTools.WPF.xml",
+        "lib/net46/Syncfusion.OlapTools.WPF.dll",
+        "lib/net46/Syncfusion.OlapTools.WPF.xml",
+        "syncfusion.olaptools.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.olaptools.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Pdf.Wpf/20.3.0.60": {
+      "sha512": "G46FT1/St573aVBa0srpgMocpbMmktESkf/TIuUOudivlgb+aWA1nfV9c2bsd2TKn4GzI+KI2/jMOOAZnrAm5Q==",
+      "type": "package",
+      "path": "syncfusion.pdf.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.Pdf.Base.dll",
+        "lib/net35/Syncfusion.Pdf.Base.xml",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net45/Syncfusion.Pdf.Base.dll",
+        "lib/net45/Syncfusion.Pdf.Base.xml",
+        "lib/net451/Syncfusion.Pdf.Base.dll",
+        "lib/net451/Syncfusion.Pdf.Base.xml",
+        "lib/net46/Syncfusion.Pdf.Base.dll",
+        "lib/net46/Syncfusion.Pdf.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Pdf.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Pdf.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.pdf.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Shared.WPF/20.3.0.60": {
+      "sha512": "yIZUQZWuTvctSl7e0oOG1/96YSOeNRixW1Qehj5kNVRYOICt7kmsrS/STCC7XulmscHkLdRaC0MlGnIlmN2BeA==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Shared.WPF.dll",
+        "lib/net35/Syncfusion.Shared.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Shared.WPF.dll",
+        "lib/net40/Syncfusion.Shared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Shared.WPF.dll",
+        "lib/net45/Syncfusion.Shared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Shared.WPF.dll",
+        "lib/net451/Syncfusion.Shared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Shared.WPF.dll",
+        "lib/net46/Syncfusion.Shared.WPF.xml",
+        "lib/net5.0-windows7.0/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.xml",
+        "syncfusion.shared.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.shared.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.WPF.Classic/20.3.0.60": {
+      "sha512": "xnN8TvVa3pVkNXxcTUdySiLtmdQ0wq3xQte713YKrX1yufmkT/k+vZlIuB/TYuCGzlFBmxTfu/K0YYtCT9quuQ==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf.classic/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net35/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net40/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net40/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net45/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net45/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net451/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net451/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net46/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net46/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.Classic.xml",
+        "syncfusion.shared.wpf.classic.20.3.0.60.nupkg.sha512",
+        "syncfusion.shared.wpf.classic.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Tools.WPF/20.3.0.60": {
+      "sha512": "DFqudHrEfMPBlhhBnYdgrbI7a/Kcei/RWQPCp9HKFXJkuShW+doGkODVzOf/HQlz00WosRk3K7w+CiTENzSm+g==",
+      "type": "package",
+      "path": "syncfusion.tools.wpf/20.3.0.60",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Tools.WPF.dll",
+        "lib/net35/Syncfusion.Tools.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Tools.WPF.dll",
+        "lib/net40/Syncfusion.Tools.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Tools.WPF.dll",
+        "lib/net45/Syncfusion.Tools.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Tools.WPF.dll",
+        "lib/net451/Syncfusion.Tools.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Tools.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Tools.WPF.dll",
+        "lib/net46/Syncfusion.Tools.WPF.xml",
+        "lib/net5.0-windows7.0/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.WPF.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Tools.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.xml",
+        "syncfusion.tools.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.tools.wpf.nuspec",
+        "syncfusion_logo.png",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Tools.WPF.Classic/20.3.0.60": {
+      "sha512": "evt7RaLnH1xjuW9rDgo5WuKs1gaIyZWPZJCLXUwNxthNSKDolBw6bQqhZ/CmeVanOZuwyZF/Is6OG3OA2kHboQ==",
+      "type": "package",
+      "path": "syncfusion.tools.wpf.classic/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net35/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/net40/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net40/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/net45/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net45/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/net451/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net451/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/net46/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net46/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/net5.0-windows7.0/Syncfusion.Tools.WPF.Classic.xml",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.Classic.dll",
+        "lib/netcoreapp3.1/Syncfusion.Tools.WPF.Classic.xml",
+        "syncfusion.tools.wpf.classic.20.3.0.60.nupkg.sha512",
+        "syncfusion.tools.wpf.classic.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.XlsIO.Wpf/20.3.0.60": {
+      "sha512": "N2vpeZgU7t/mLffzv76TmCbCGXxVUilDXsZOE914yI+ZY3ChXbrcyQK3gEUaLae/vx+tiF0daSPMYEf5ig1rZw==",
+      "type": "package",
+      "path": "syncfusion.xlsio.wpf/20.3.0.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net35/Syncfusion.XlsIO.Base.dll",
+        "lib/net35/Syncfusion.XlsIO.Base.xml",
+        "lib/net40/Syncfusion.XlsIO.Base.dll",
+        "lib/net40/Syncfusion.XlsIO.Base.xml",
+        "lib/net45/Syncfusion.XlsIO.Base.dll",
+        "lib/net45/Syncfusion.XlsIO.Base.xml",
+        "lib/net451/Syncfusion.XlsIO.Base.dll",
+        "lib/net451/Syncfusion.XlsIO.Base.xml",
+        "lib/net46/Syncfusion.XlsIO.Base.dll",
+        "lib/net46/Syncfusion.XlsIO.Base.xml",
+        "lib/net5.0-windows7.0/Syncfusion.XlsIO.Base.dll",
+        "lib/net5.0-windows7.0/Syncfusion.XlsIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.xml",
+        "syncfusion.xlsio.wpf.20.3.0.60.nupkg.sha512",
+        "syncfusion.xlsio.wpf.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -2155,24 +3740,30 @@
     ".NETFramework,Version=v4.8": [
       "MahApps.Metro >= 2.4.9",
       "MahApps.Metro.IconPacks >= 4.11.0",
-      "Oracle.ManagedDataAccess >= 21.7.0"
+      "Oracle.ManagedDataAccess >= 21.7.0",
+      "Syncfusion.OlapClient.WPF >= 20.3.0.60"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabo\\.nuget\\packages\\": {}
+    "C:\\Users\\Diego\\.nuget\\packages\\": {},
+    "D:\\Syncfusion\\WPF\\20.3.0.56\\ToolboxNuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
+      "projectUniqueName": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj",
       "projectName": "ClienteMesa",
-      "projectPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
-      "packagesPath": "C:\\Users\\Gabo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\obj\\",
+      "projectPath": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj",
+      "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Syncfusion\\WPF\\20.3.0.56\\ToolboxNuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Gabo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
       ],
       "originalTargetFrameworks": [
         "net48"
@@ -2208,9 +3799,13 @@
           "Oracle.ManagedDataAccess": {
             "target": "Package",
             "version": "[21.7.0, )"
+          },
+          "Syncfusion.OlapClient.WPF": {
+            "target": "Package",
+            "version": "[20.3.0.60, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

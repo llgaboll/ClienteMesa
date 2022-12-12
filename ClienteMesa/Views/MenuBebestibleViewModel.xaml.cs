@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ClienteMesa.Views
 {
     /// <summary>
-    /// Lógica de interacción para MesaNumero.xaml
+    /// Interaction logic for MenuBebestibleViewModel.xaml
     /// </summary>
-    public partial class MesaNumeroView : UserControl
+    public partial class MenuBebestibleViewModel : UserControl
     {
-        public MesaNumeroView()
+        public MenuBebestibleViewModel()
         {
             InitializeComponent();
         }

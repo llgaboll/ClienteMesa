@@ -20,6 +20,15 @@
             <DataTemplate DataType="{x:Type viewModel:MenuDiaViewModel}">
                 <local:MenuDiaView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:MenuCartaViewModel}">
+                <local:MenuDiaView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:MenuEnsaladaViewModel}">
+                <local:MenuDiaView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:MenuBebestibleViewModel}">
+                <local:MenuDiaView/>
+            </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:CarritoViewModel}">
                 <local:CarritoView/>
             </DataTemplate>
@@ -96,7 +105,7 @@
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
                     <!--  Item 3 -->
-                    <mah:HamburgerMenuGlyphItem  Label="Menú a la carta" Command="{Binding Mostrar Command}">
+                    <mah:HamburgerMenuGlyphItem  Label="Menú a la carta" Command="{Binding MostrarMenuCartaCommand}">
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <iconPacks:PackIconFontAwesome  Width="25"
                                                             Height="25"
@@ -106,7 +115,7 @@
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
                     <!--  Item 4 -->
-                    <mah:HamburgerMenuGlyphItem  Label="Ensalada" Command="{Binding Mostrar Command}">
+                    <mah:HamburgerMenuGlyphItem  Label="Ensalada" Command="{Binding MostrarMenuEnsaladaCommand}">
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <iconPacks:PackIconFontAwesome  Width="25"
                                                             Height="25"
@@ -116,7 +125,7 @@
                         </mah:HamburgerMenuGlyphItem.Tag>
                     </mah:HamburgerMenuGlyphItem>
                     <!--  Item 5 -->
-                    <mah:HamburgerMenuGlyphItem  Label="Bebestibles" Command="{Binding Mostrar Command}">
+                    <mah:HamburgerMenuGlyphItem  Label="Bebestibles" Command="{Binding MostrarMenuBebestibleCommand}">
                         <mah:HamburgerMenuGlyphItem.Tag>
                             <iconPacks:PackIconFontAwesome  Width="25"
                                                             Height="25"
@@ -152,7 +161,7 @@
             </mah:HamburgerMenu.OptionsItemsSource>
         </mah:HamburgerMenu>
         <ContentControl Grid.Column="1" 
-                        Content="{Binding CurrentViewModel}"
+                        Content="{Binding CurrentViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                         VerticalAlignment="Center"
                         HorizontalAlignment="Center"/>
     </Grid>

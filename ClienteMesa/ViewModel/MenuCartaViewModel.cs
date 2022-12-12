@@ -10,7 +10,7 @@ using System.Windows.Input;
 
 namespace ClienteMesa.ViewModel
 {
-    public class MenuDiaViewModel : ViewModelBase
+    class MenuCartaViewModel : ViewModelBase
     {
         //Fields
         private MenuModel menu;
@@ -25,7 +25,7 @@ namespace ClienteMesa.ViewModel
         public ICommand OrdenarMenuCommand { get; }
 
         // Constructor
-        public MenuDiaViewModel()
+        public MenuCartaViewModel()
         {
             MenuList = new ObservableCollection<MenuModel>();
             LoadMenuCards();
@@ -37,11 +37,10 @@ namespace ClienteMesa.ViewModel
         {
             menuRepository = new MenuRepository();
             List<MenuModel> list = menuRepository.ObtenerByCategoriaMenu(1);
-            foreach(var item in list)
+            foreach (var item in list)
             {
                 menuList.Add(item);
             }
-        
         }
     }
 }

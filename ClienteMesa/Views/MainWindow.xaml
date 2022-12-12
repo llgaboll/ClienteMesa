@@ -14,6 +14,7 @@
         WindowStartupLocation="CenterScreen"
         UseNoneWindowStyle="True"
         ResizeMode="NoResize"
+    
         Height="768" Width="1366">
 
     <Window.DataContext>
@@ -22,9 +23,6 @@
     <Window.Resources>
         <DataTemplate DataType="{x:Type viewModel:MenuCategoriaViewModel}">
             <local:MenuCategoriaView/>
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type viewModel:MesaNumeroViewModel}">
-            <local:MesaNumeroView/>
         </DataTemplate>
     </Window.Resources>
     <Grid>
@@ -118,12 +116,9 @@
             <Grid
                 Grid.Row="3"
                 Background="White">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="435*"/>
-                    <ColumnDefinition Width="248*"/>
-                </Grid.ColumnDefinitions>
                 <UserControl 
-                    Content="{Binding CurrentViewModel}" Grid.ColumnSpan="2"/>
+                    Content="{Binding CurrentViewModel, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                    Grid.ColumnSpan="2"/>
             </Grid>
             <Grid
                 Grid.Row="4"

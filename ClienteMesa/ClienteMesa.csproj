@@ -12,6 +12,7 @@
     <PackageReference Include="MahApps.Metro" Version="2.4.9" />
     <PackageReference Include="MahApps.Metro.IconPacks" Version="4.11.0" />
     <PackageReference Include="Oracle.ManagedDataAccess" Version="21.7.0" />
+    <PackageReference Include="Syncfusion.OlapClient.WPF" Version="20.3.0.60" />
   </ItemGroup>
 
 </Project>

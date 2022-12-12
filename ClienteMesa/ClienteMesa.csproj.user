@@ -2,12 +2,16 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <ApplicationDefinition Update="App.xaml">
-      <SubType>Designer</SubType>
-    </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Update="App.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\CarritoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MenuBebestibleViewModel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MenuCartaView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\MenuCategoriaView.xaml.cs">
@@ -16,15 +20,24 @@
     <Compile Update="Views\MenuDiaView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\MesaNumeroView.xaml.cs">
+    <Compile Update="Views\MenuEnsaladaView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="App.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\CarritoView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MenuBebestibleViewModel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MenuCartaView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\MenuCategoriaView.xaml">
@@ -33,7 +46,7 @@
     <Page Update="Views\MenuDiaView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\MesaNumeroView.xaml">
+    <Page Update="Views\MenuEnsaladaView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

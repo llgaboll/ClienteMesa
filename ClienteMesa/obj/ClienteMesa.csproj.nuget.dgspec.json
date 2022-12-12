@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj": {}
+    "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj": {
+    "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj",
         "projectName": "ClienteMesa",
-        "projectPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\ClienteMesa.csproj",
-        "packagesPath": "C:\\Users\\Gabo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabo\\Desktop\\forms\\ClienteMesa\\obj\\",
+        "projectPath": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\ClienteMesa.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Diego\\OneDrive\\Escritorio\\Repositorios\\ClienteMesa\\ClienteMesa\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Syncfusion\\WPF\\20.3.0.56\\ToolboxNuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gabo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Syncfusion Toolbox for WPF.config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -51,9 +55,13 @@
             "Oracle.ManagedDataAccess": {
               "target": "Package",
               "version": "[21.7.0, )"
+            },
+            "Syncfusion.OlapClient.WPF": {
+              "target": "Package",
+              "version": "[20.3.0.60, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
