@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ClienteMesa.Views"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
              xmlns:viewModel="clr-namespace:ClienteMesa.ViewModel"
              xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
              mc:Ignorable="d" 
@@ -20,20 +21,103 @@
         <syncfusion:CardView
             ItemsSource="{Binding MenuList}"
             ShowHeader="False"
-            Orientation="Horizontal">
+            Orientation="Horizontal"
+            Margin="10,43">
             <syncfusion:CardView.HeaderTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding nombre_menu}"/>
+                    <TextBlock 
+                        HorizontalAlignment="Center"
+                        FontWeight="DemiBold"
+                        FontSize="15"
+                        Text="{Binding nombre_menu}"/>
                 </DataTemplate>
             </syncfusion:CardView.HeaderTemplate>
             <syncfusion:CardView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Name:" 
-				           Margin="5" />
-                        <TextBlock Grid.Column="1"
-                           Margin="5"
-                           Text="{Binding categoria_menu, UpdateSourceTrigger=PropertyChanged}" />
+                    <StackPanel Orientation="Vertical"
+                                Margin="0">
+                        <Grid 
+                            Height="58"
+                            Width="150">
+                            <Label Content="Valor"
+                                   FontWeight="DemiBold"
+                                   Margin="0,0,0,20"/>
+                            <Border 
+                                Height="30"
+                                Width="60"
+                                VerticalAlignment="Bottom"
+                                HorizontalAlignment="Left"
+                                BorderBrush="Black"
+                                BorderThickness="1"
+                                Margin="0,0,0,5">
+                                <TextBlock
+                                    HorizontalAlignment="Center"
+                                    Text="{Binding valor, UpdateSourceTrigger=PropertyChanged, StringFormat='C', ConverterCulture='es-CL'}" 
+				            Margin="5"/>
+                            </Border>
+                            <Label Content="Porciones"
+                                   FontWeight="DemiBold"
+                                   Margin="85,0,0,20"/>
+                            <Border 
+                            Height="30"
+                            Width="60"
+                            Margin="0,0,0,5"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Right"
+                            BorderBrush="Black"
+                            BorderThickness="1">
+                                <TextBlock
+                                    HorizontalAlignment="Center"
+                                    mah:TextBoxHelper.UseFloatingWatermark="True"
+                                    mah:TextBoxHelper.Watermark="Usuario" 
+                                    Text="{Binding porciones, UpdateSourceTrigger=PropertyChanged}" 
+				            Margin="5" />
+                            </Border>
+                        </Grid>
+
+                        <Grid
+                            Margin="0,0,0,8"
+                            Height="100"
+                            Width="150">
+
+                            <Label 
+                                VerticalAlignment="Top"
+                                Content="Descripción"
+                                FontWeight="DemiBold"/>
+                            <Border 
+                            Height="80"
+                            Width="150"
+                            VerticalAlignment="Bottom"
+                            HorizontalAlignment="Left"
+                            BorderBrush="Black"
+                            BorderThickness="1">
+                                <TextBlock 
+                                    TextWrapping="Wrap"
+                                    Text="{Binding descripcion, UpdateSourceTrigger=PropertyChanged}" 
+				            Margin="5" />
+                                
+                            </Border>
+                        </Grid>
+
+                        <Button
+                            Content="Añadir"
+                            FontWeight="Medium"
+                            Background="#F08166"
+                            Foreground="White"
+                            Command="{Binding OrdenarCommand}"
+                            Style="{DynamicResource ResourceKey=MahApps.Styles.Button.MetroWindow.Close.Light.Win10}"
+                            VerticalAlignment="Bottom"
+                            Margin="0,0,0,10"
+                            FontSize="15"
+                            HorizontalAlignment="Center"
+                            VerticalContentAlignment="Center"
+                            HorizontalContentAlignment="Center"
+                            Height="40"
+                            Width="152"
+                            Cursor="Hand">
+                        </Button>
+
+
                     </StackPanel>
                 </DataTemplate>
             </syncfusion:CardView.ItemTemplate>
